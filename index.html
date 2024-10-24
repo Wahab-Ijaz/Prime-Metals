@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>SHOPIFY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <section class="header">
+        <div class="container-fluide">
+            <div class="row d-flex justify-content-between align-items-center ">
+                <div class="col-8 col-md-2 text-center p-0 m-0">
+                    <a class="logo" href="./index.php">RealTax</a>
+                </div>
+                <div class="col-4  col-md-1 text-center ">
+                    <span><i class="fa-solid fa-bars" onclick="show()" ></i></span>
+                </div>
+
+                <div class=" col-md-9 text-center ">
+                    <ul class="head_list p-4 mb-2" id="click">
+                        <li><a href="">Home</a></li>
+                        <li><a href="./#about">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Accounting</a></li>
+                        <li><a href="">Ecommerce</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- head_section-start -->
+    <section class="head_section" data-aos="zoom-in-down" data-aos-duration="2500">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <div class="text-center ">
+                        <h2 class="heading_banner" data-aos="zoom-in-down" data-aos-duration="1500">Welcome To RealTax</h2>
+                        <p class="banner_text mt-2" data-aos="zoom-in" data-aos-duration="3000">Remote Experts Accounting Legal Tax Advisory Services</p>
+                        <div class="row">
+                            <div class="col-md-12  mt-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                                <div class="row">
+                                    <div class="col-8 text-center  col-md-6 mx-auto text-end">
+                                        <button type="button" class="btn w-75 head_button1 mt-2">Book a Free Consultation →</button>
+                                    </div>
+                                    <div class="col-4 col-md-5 text-start ">
+                                        <button type="button" class="btn head_button2 mt-2">Learn More →</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slide-bar-start -->
+    <section class="slide-bar about" data-aos="zoom-in-down" data-aos-duration="3000">
+        <div class="container-fluid p-0 ">
+            <div class="row" id="show_bar" style="display:none">
+                <div class="col-md-12" data-aos="fade-left">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="row text-left mt-3">
+                                <div class="col-12 ">
+                                    <ul class="bar_content " data-aos="fade-right">
+                                        <li><a href="">Home</a></li>
+                                        <li><a href="">About</a></li>
+                                        <li><a href="">Blog</a></li>
+                                        <li><a href="">Contact</a></li>
+                                        <li><a href="">Service</a></li>
+                                        <li><a href="">Accounting</a></li>
+                                        <li><a href="">Ecommerce</a></li>
+                                    </ul>
+                                    <div>
+                                        <div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    </section>
+    <script>
+        function show() {
+            var x = document.getElementById("show_bar");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <!-- Our-Service-start -->
+    <section class="Our-Service  ">
+        <section class="content_1 p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6 mx-auto p-4 mt-2">
+                            <h3 class="text-center service_text" data-aos="zoom-in-down" data-aos-duration="3000">Our Services</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center p-5" data-aos="zoom-in-down" data-aos-duration="2500">
+                        <img src="./img/Animation-1707581338309-3.gif" alt="img" height="90%" width="100%">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center " data-aos="zoom-in-up" data-aos-duration="2500">
+                        <div class="row ">
+                            <div class="col-12 mt-2">
+                                <h2 class="text_part">About Us</h2>
+                            </div>
+                            <div class="col-12 mt-3 mb-2">
+                                <p class="text">Celebrating over 7 years of expertise, our remote team of CPA, CA, and ACCA professionals offers top-tier accounting, tax and advisory services. We specialize in aiding businesses across various industries, from startups
+                                    to established enterprises, with tailored financial solutions. Our mission is to empower your success through strategic financial guidance.</p>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <div class="row">
+                                    <div class="col-4  col-md-4">
+                                        <button class="btn w-100 content_button">About Us</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <section class="content_2 p-5 mt-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center p-3" data-aos="zoom-in-down" data-aos-duration="2500">
+                        <img src="./img/techny-data-dashboard-with-charts-and-graphs.gif" alt="img" height="90%" width="100%">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center " data-aos="zoom-in-up" data-aos-duration="2500">
+                        <div class="row ">
+                            <div class="col-12 mt-2">
+                                <h2 class="text_part ">Service Assurance</h2>
+                            </div>
+                            <div class="col-12 mt-3 mb-2">
+                                <p class="text">Our team has more than 3 years of remote working experience. We prefer to use cloud accounting apps like Xero, QBO, Zoho, Shopify, Amazon, Google Sheets, MS Excel, A2X, Bill.com, Teams, Slack, and MS Office Suite for service
+                                    delivery. This ensures that our clients have 24/7 access to live reporting and greater control over their data and its security.</p>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <div class="row">
+                                    <div class="col-4  col-md-4">
+                                        <button class="btn w-100 content_button">Services</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="content_3 p-5 mt-3 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center p-3" data-aos="zoom-in-down" data-aos-duration="2500">
+                        <img src="./img/skillsoft_icon_goals.gif" class="img-circle" alt="Challange-img" height="90%" width="100%">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center " data-aos="zoom-in-up" data-aos-duration="2500">
+                        <div class="row ">
+                            <div class="col-12 mt-2">
+                                <h2 class="text_part">Challenge</h2>
+                            </div>
+                            <div class="col-12 mt-3 mb-2">
+                                <p class="text">We understand that running a business can be challenging, especially when it comes to managing your finances and tax books. That’s why we’re excited to offer our remote services that you can rely on. It saves your valuable
+                                    time and effort. Your books are handled by professionals</p>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <div class="row">
+                                    <div class="col-4  col-md-4">
+                                        <button class="btn w-100 content_button">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+        </section>
+    </section>
+    <!-- Our-Service-end -->
+
+    <!-- script-link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- jquery-script -->
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
